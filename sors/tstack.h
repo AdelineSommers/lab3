@@ -1,6 +1,6 @@
 #pragma once
 #define MemSize 25
-
+typedef int TData;
 class TStack {
 protected:
 	int Mem[MemSize];

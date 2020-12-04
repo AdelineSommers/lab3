@@ -41,7 +41,7 @@ void TStack::Paint(int y, int x1, int x2) {
 	for (i = px + 1; i <= x2; i++) cprintf(" ");
 	if ((x1 < 1) || (x1 > 79) || (px < 1) || (px > 79) || (x2 < 1) || (x2 > 79)) {
 		printf("Error in parameters of painting...\n");
-		getch();
+		_getch();
 	}
 }
 
